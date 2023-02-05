@@ -1,6 +1,6 @@
 from num2words import num2words
 
-sequence = []
+main_sequence = []
 f = open("random.txt", "r")
 main_sequence = [int(i) for i in f.read().split(",")]
 for i in range(len(main_sequence)):
